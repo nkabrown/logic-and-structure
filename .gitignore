@@ -1,0 +1,5 @@
+*.DS_Store
+
+# Idris bytecode and interactive files
+*.idr~
+*.ibc
