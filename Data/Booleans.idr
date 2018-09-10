@@ -56,8 +56,6 @@ testNegation1 : (negation T) = F
 testNegation1 = Refl
 testNegation2 : (negation F) = T
 testNegation2 = Refl
-testNegation3 : (~T) = F
-testNegation3 = Refl
 
 ||| Logical connective implication (if...,then...)
 implication : (b1 : Boolean) -> (b2 : Boolean) -> Boolean
