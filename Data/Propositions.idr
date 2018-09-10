@@ -36,6 +36,9 @@ infixl 4 \/
 (\/) : Prop -> Prop -> Prop
 (\/) e1 e2 = OrExp e1 e2 
 
+neg : Prop -> Prop
+neg = NegExp
+
 infix 4 +>
 (+>) : Prop -> Prop -> Prop
 (+>) e1 e2 = IfExp e1 e2
@@ -43,6 +46,3 @@ infix 4 +>
 infix 4 <>
 (<>) : Prop -> Prop -> Prop
 (<>) e1 e2 = IffExp e1 e2
-
-neg : Prop -> Prop
-neg = NegExp
