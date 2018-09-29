@@ -28,11 +28,11 @@ Truth = AtomicExp T
 Falsity : Prop
 Falsity = AtomicExp F
 
-infixl 4 /\
+infixl 5 /\
 (/\) : Prop -> Prop -> Prop
 (/\) e1 e2 = AndExp e1 e2
 
-infixl 4 \/
+infixl 5 \/
 (\/) : Prop -> Prop -> Prop
 (\/) e1 e2 = OrExp e1 e2 
 

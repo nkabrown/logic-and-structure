@@ -10,7 +10,7 @@ conjunction : (b1 : Boolean) -> (b2 : Boolean) -> Boolean
 conjunction T b2 = b2
 conjunction F b2 = F
 
-infixl 4 /\
+infixl 5 /\
 (/\) : Boolean -> Boolean -> Boolean
 (/\) = conjunction
 
@@ -30,7 +30,7 @@ disjunction : (b1 : Boolean) -> (b2 : Boolean) -> Boolean
 disjunction T b2 = T
 disjunction F b2 = b2
 
-infixl 4 \/
+infixl 5 \/
 (\/) : Boolean -> Boolean -> Boolean
 (\/) = disjunction
 
